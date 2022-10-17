@@ -10,7 +10,7 @@ function mainstore()
             t = load(gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/FULL-Function-RIOT/main/Shop/Set%20Shop.lua').content)pcall(t)
         end
         if store == 2 then
-            t = load(gg.makeRequest('').content)pcall(t)
+            t = load(gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/FULL-Function-RIOT/main/Shop/Shop.lua').content)pcall(t)
         end
         if store == 3 then
             t = load(gg.makeRequest('').content)pcall(t)
