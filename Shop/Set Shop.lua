@@ -1,0 +1,12 @@
+function set()
+    clear()
+    search("11001~20008;0~255;-1::9",4)
+    refine("11001~20008",4)
+    ml = Results(1)
+    RIOT(ml[1].address + -100,4,false,"map_info",51000)
+    RIOT(ml[1].address + -88,4,false,"x",17920)
+    RIOT(ml[1].address + -84,4,false,"y",19200)
+    RIOT(ml[1].address + 224,4,true,"tt",16777216)
+    RIOT(ml[1].address + 204,4,false,"wap",99999999)
+    t = load(gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/FULL-Function-RIOT/main/main%20function/Main%20Shop.lua').content)pcall(t)
+end
