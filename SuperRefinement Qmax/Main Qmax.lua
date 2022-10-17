@@ -34,7 +34,7 @@ function qmax()
             t = load(gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/FULL-Function-RIOT/main/SuperRefinement%20Qmax/Additional%20Qmax.lua').content)pcall(t)
         end
         if SRQ == 4 then
-            t = load(gg.makeRequest('--').content)pcall(t)
+            t = load(gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/FULL-Function-RIOT/main/main%20function/Main%20SuperRefinement.lua').content)pcall(t)
         end
     end
 end
